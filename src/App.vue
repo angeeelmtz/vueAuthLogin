@@ -1,7 +1,9 @@
 <template>
   <nav>
     <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
+    <router-link to="/auth">Auth</router-link> | 
+    <router-link to="/firebase">FireBase</router-link> |
+    <router-link to="/social">Social</router-link>
   </nav>
   <router-view/>
 </template>
@@ -12,7 +14,7 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
+  color: $primary-color;
 }
 
 nav {
